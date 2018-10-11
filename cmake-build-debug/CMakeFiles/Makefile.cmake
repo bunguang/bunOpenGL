@@ -53,5 +53,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/example.dir/DependInfo.cmake"
   "CMakeFiles/triangle.dir/DependInfo.cmake"
   "CMakeFiles/shader.dir/DependInfo.cmake"
+  "CMakeFiles/modelImporter.dir/DependInfo.cmake"
+  "CMakeFiles/bunGLM.dir/DependInfo.cmake"
+  "CMakeFiles/cubeLight.dir/DependInfo.cmake"
   "CMakeFiles/texture.dir/DependInfo.cmake"
   )

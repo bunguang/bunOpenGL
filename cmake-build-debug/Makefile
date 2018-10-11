@@ -149,6 +149,45 @@ shader/fast:
 .PHONY : shader/fast
 
 #=============================================================================
+# Target rules for targets named modelImporter
+
+# Build rule for target.
+modelImporter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 modelImporter
+.PHONY : modelImporter
+
+# fast build rule for target.
+modelImporter/fast:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/build
+.PHONY : modelImporter/fast
+
+#=============================================================================
+# Target rules for targets named bunGLM
+
+# Build rule for target.
+bunGLM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bunGLM
+.PHONY : bunGLM
+
+# fast build rule for target.
+bunGLM/fast:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/build
+.PHONY : bunGLM/fast
+
+#=============================================================================
+# Target rules for targets named cubeLight
+
+# Build rule for target.
+cubeLight: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 cubeLight
+.PHONY : cubeLight
+
+# fast build rule for target.
+cubeLight/fast:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/build
+.PHONY : cubeLight/fast
+
+#=============================================================================
 # Target rules for targets named texture
 
 # Build rule for target.
@@ -323,6 +362,87 @@ texture/fast:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/3.texture/main.cpp.s
 .PHONY : 3.texture/main.cpp.s
 
+bunGLM/Shader.obj: bunGLM/Shader.cpp.obj
+
+.PHONY : bunGLM/Shader.obj
+
+# target to build an object file
+bunGLM/Shader.cpp.obj:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/Shader.cpp.obj
+.PHONY : bunGLM/Shader.cpp.obj
+
+bunGLM/Shader.i: bunGLM/Shader.cpp.i
+
+.PHONY : bunGLM/Shader.i
+
+# target to preprocess a source file
+bunGLM/Shader.cpp.i:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/Shader.cpp.i
+.PHONY : bunGLM/Shader.cpp.i
+
+bunGLM/Shader.s: bunGLM/Shader.cpp.s
+
+.PHONY : bunGLM/Shader.s
+
+# target to generate assembly for a file
+bunGLM/Shader.cpp.s:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/Shader.cpp.s
+.PHONY : bunGLM/Shader.cpp.s
+
+bunGLM/main.obj: bunGLM/main.cpp.obj
+
+.PHONY : bunGLM/main.obj
+
+# target to build an object file
+bunGLM/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/main.cpp.obj
+.PHONY : bunGLM/main.cpp.obj
+
+bunGLM/main.i: bunGLM/main.cpp.i
+
+.PHONY : bunGLM/main.i
+
+# target to preprocess a source file
+bunGLM/main.cpp.i:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/main.cpp.i
+.PHONY : bunGLM/main.cpp.i
+
+bunGLM/main.s: bunGLM/main.cpp.s
+
+.PHONY : bunGLM/main.s
+
+# target to generate assembly for a file
+bunGLM/main.cpp.s:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/bunGLM/main.cpp.s
+.PHONY : bunGLM/main.cpp.s
+
+cubeLight/main.obj: cubeLight/main.cpp.obj
+
+.PHONY : cubeLight/main.obj
+
+# target to build an object file
+cubeLight/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/cubeLight/main.cpp.obj
+.PHONY : cubeLight/main.cpp.obj
+
+cubeLight/main.i: cubeLight/main.cpp.i
+
+.PHONY : cubeLight/main.i
+
+# target to preprocess a source file
+cubeLight/main.cpp.i:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/cubeLight/main.cpp.i
+.PHONY : cubeLight/main.cpp.i
+
+cubeLight/main.s: cubeLight/main.cpp.s
+
+.PHONY : cubeLight/main.s
+
+# target to generate assembly for a file
+cubeLight/main.cpp.s:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/cubeLight/main.cpp.s
+.PHONY : cubeLight/main.cpp.s
+
 glad.obj: glad.c.obj
 
 .PHONY : glad.obj
@@ -332,6 +452,9 @@ glad.c.obj:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.obj
 .PHONY : glad.c.obj
 
@@ -344,6 +467,9 @@ glad.c.i:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.i
 .PHONY : glad.c.i
 
@@ -356,8 +482,38 @@ glad.c.s:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.s
 .PHONY : glad.c.s
+
+modelImporter/main.obj: modelImporter/main.cpp.obj
+
+.PHONY : modelImporter/main.obj
+
+# target to build an object file
+modelImporter/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/modelImporter/main.cpp.obj
+.PHONY : modelImporter/main.cpp.obj
+
+modelImporter/main.i: modelImporter/main.cpp.i
+
+.PHONY : modelImporter/main.i
+
+# target to preprocess a source file
+modelImporter/main.cpp.i:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/modelImporter/main.cpp.i
+.PHONY : modelImporter/main.cpp.i
+
+modelImporter/main.s: modelImporter/main.cpp.s
+
+.PHONY : modelImporter/main.s
+
+# target to generate assembly for a file
+modelImporter/main.cpp.s:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/modelImporter/main.cpp.s
+.PHONY : modelImporter/main.cpp.s
 
 stb_image.obj: stb_image.cpp.obj
 
@@ -368,6 +524,9 @@ stb_image.cpp.obj:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
@@ -380,6 +539,9 @@ stb_image.cpp.i:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
@@ -392,6 +554,9 @@ stb_image.cpp.s:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
@@ -406,6 +571,9 @@ help:
 	@echo ... triangle
 	@echo ... edit_cache
 	@echo ... shader
+	@echo ... modelImporter
+	@echo ... bunGLM
+	@echo ... cubeLight
 	@echo ... texture
 	@echo ... 0.examples/main.obj
 	@echo ... 0.examples/main.i
@@ -425,9 +593,21 @@ help:
 	@echo ... 3.texture/main.obj
 	@echo ... 3.texture/main.i
 	@echo ... 3.texture/main.s
+	@echo ... bunGLM/Shader.obj
+	@echo ... bunGLM/Shader.i
+	@echo ... bunGLM/Shader.s
+	@echo ... bunGLM/main.obj
+	@echo ... bunGLM/main.i
+	@echo ... bunGLM/main.s
+	@echo ... cubeLight/main.obj
+	@echo ... cubeLight/main.i
+	@echo ... cubeLight/main.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s
+	@echo ... modelImporter/main.obj
+	@echo ... modelImporter/main.i
+	@echo ... modelImporter/main.s
 	@echo ... stb_image.obj
 	@echo ... stb_image.i
 	@echo ... stb_image.s

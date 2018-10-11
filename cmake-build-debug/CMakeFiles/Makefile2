@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = D:\clion_project\bunOpenGL\cmake-build-debug
 CMakeFiles/example.dir/all:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/depend
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=10,11,12,13 "Built target example"
 .PHONY : CMakeFiles/example.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/example.dir/clean
 CMakeFiles/triangle.dir/all:
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/depend
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=15,16,17,18 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31 "Built target triangle"
 .PHONY : CMakeFiles/triangle.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ clean: CMakeFiles/triangle.dir/clean
 CMakeFiles/shader.dir/all:
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/depend
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8,9 "Built target shader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22 "Built target shader"
 .PHONY : CMakeFiles/shader.dir/all
 
 # Include target in all.
@@ -170,13 +170,124 @@ clean: CMakeFiles/shader.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/modelImporter.dir
+
+# All Build rule for target.
+CMakeFiles/modelImporter.dir/all:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/depend
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=14,15,16,17 "Built target modelImporter"
+.PHONY : CMakeFiles/modelImporter.dir/all
+
+# Include target in all.
+all: CMakeFiles/modelImporter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/modelImporter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/modelImporter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/modelImporter.dir/rule
+
+# Convenience name for target.
+modelImporter: CMakeFiles/modelImporter.dir/rule
+
+.PHONY : modelImporter
+
+# clean rule for target.
+CMakeFiles/modelImporter.dir/clean:
+	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/clean
+.PHONY : CMakeFiles/modelImporter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/modelImporter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bunGLM.dir
+
+# All Build rule for target.
+CMakeFiles/bunGLM.dir/all:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/depend
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target bunGLM"
+.PHONY : CMakeFiles/bunGLM.dir/all
+
+# Include target in all.
+all: CMakeFiles/bunGLM.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bunGLM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bunGLM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/bunGLM.dir/rule
+
+# Convenience name for target.
+bunGLM: CMakeFiles/bunGLM.dir/rule
+
+.PHONY : bunGLM
+
+# clean rule for target.
+CMakeFiles/bunGLM.dir/clean:
+	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/clean
+.PHONY : CMakeFiles/bunGLM.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bunGLM.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cubeLight.dir
+
+# All Build rule for target.
+CMakeFiles/cubeLight.dir/all:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/depend
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9 "Built target cubeLight"
+.PHONY : CMakeFiles/cubeLight.dir/all
+
+# Include target in all.
+all: CMakeFiles/cubeLight.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cubeLight.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cubeLight.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/cubeLight.dir/rule
+
+# Convenience name for target.
+cubeLight: CMakeFiles/cubeLight.dir/rule
+
+.PHONY : cubeLight
+
+# clean rule for target.
+CMakeFiles/cubeLight.dir/clean:
+	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/clean
+.PHONY : CMakeFiles/cubeLight.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cubeLight.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/texture.dir
 
 # All Build rule for target.
 CMakeFiles/texture.dir/all:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/depend
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=10,11,12,13,14 "Built target texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=23,24,25,26,27 "Built target texture"
 .PHONY : CMakeFiles/texture.dir/all
 
 # Include target in all.

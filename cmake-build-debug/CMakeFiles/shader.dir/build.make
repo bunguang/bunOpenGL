@@ -59,15 +59,15 @@ include CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/2.shader/main.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/2.shader/main.cpp.obj: ../2.shader/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shader.dir/2.shader/main.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\main.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\main.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\main.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\main.cpp
 
 CMakeFiles/shader.dir/2.shader/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/2.shader/main.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\main.cpp > CMakeFiles\shader.dir\2.shader\main.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\main.cpp > CMakeFiles\shader.dir\2.shader\main.cpp.i
 
 CMakeFiles/shader.dir/2.shader/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/2.shader/main.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\main.cpp -o CMakeFiles\shader.dir\2.shader\main.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\main.cpp -o CMakeFiles\shader.dir\2.shader\main.cpp.s
 
 CMakeFiles/shader.dir/2.shader/main.cpp.obj.requires:
 
@@ -83,15 +83,15 @@ CMakeFiles/shader.dir/2.shader/main.cpp.obj.provides.build: CMakeFiles/shader.di
 CMakeFiles/shader.dir/glad.c.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/glad.c.obj: ../glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shader.dir/glad.c.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\shader.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\shader.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
 
 CMakeFiles/shader.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shader.dir/glad.c.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\shader.dir\glad.c.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\shader.dir\glad.c.i
 
 CMakeFiles/shader.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shader.dir/glad.c.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\shader.dir\glad.c.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\shader.dir\glad.c.s
 
 CMakeFiles/shader.dir/glad.c.obj.requires:
 
@@ -107,15 +107,15 @@ CMakeFiles/shader.dir/glad.c.obj.provides.build: CMakeFiles/shader.dir/glad.c.ob
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj: ../2.shader/Shader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shader.dir/2.shader/Shader.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\Shader.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\Shader.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\Shader.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\Shader.cpp
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/2.shader/Shader.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\Shader.cpp > CMakeFiles\shader.dir\2.shader\Shader.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\Shader.cpp > CMakeFiles\shader.dir\2.shader\Shader.cpp.i
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/2.shader/Shader.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\Shader.cpp -o CMakeFiles\shader.dir\2.shader\Shader.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\Shader.cpp -o CMakeFiles\shader.dir\2.shader\Shader.cpp.s
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj.requires:
 
@@ -131,15 +131,15 @@ CMakeFiles/shader.dir/2.shader/Shader.cpp.obj.provides.build: CMakeFiles/shader.
 CMakeFiles/shader.dir/stb_image.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/stb_image.cpp.obj: ../stb_image.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shader.dir/stb_image.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
 
 CMakeFiles/shader.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/stb_image.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\shader.dir\stb_image.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\shader.dir\stb_image.cpp.i
 
 CMakeFiles/shader.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/stb_image.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\shader.dir\stb_image.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\shader.dir\stb_image.cpp.s
 
 CMakeFiles/shader.dir/stb_image.cpp.obj.requires:
 

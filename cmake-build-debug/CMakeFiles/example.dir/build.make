@@ -59,15 +59,15 @@ include CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/0.examples/main.cpp.obj: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/0.examples/main.cpp.obj: ../0.examples/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/0.examples/main.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\0.examples\main.cpp.obj -c D:\clion_project\bunOpenGL\0.examples\main.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\0.examples\main.cpp.obj -c D:\clion_project\bunOpenGL\0.examples\main.cpp
 
 CMakeFiles/example.dir/0.examples/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/0.examples/main.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\0.examples\main.cpp > CMakeFiles\example.dir\0.examples\main.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\0.examples\main.cpp > CMakeFiles\example.dir\0.examples\main.cpp.i
 
 CMakeFiles/example.dir/0.examples/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/0.examples/main.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\0.examples\main.cpp -o CMakeFiles\example.dir\0.examples\main.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\0.examples\main.cpp -o CMakeFiles\example.dir\0.examples\main.cpp.s
 
 CMakeFiles/example.dir/0.examples/main.cpp.obj.requires:
 
@@ -83,15 +83,15 @@ CMakeFiles/example.dir/0.examples/main.cpp.obj.provides.build: CMakeFiles/exampl
 CMakeFiles/example.dir/glad.c.obj: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/glad.c.obj: ../glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/example.dir/glad.c.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\example.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\example.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
 
 CMakeFiles/example.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/example.dir/glad.c.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\example.dir\glad.c.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\example.dir\glad.c.i
 
 CMakeFiles/example.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/example.dir/glad.c.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\example.dir\glad.c.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\example.dir\glad.c.s
 
 CMakeFiles/example.dir/glad.c.obj.requires:
 
@@ -107,15 +107,15 @@ CMakeFiles/example.dir/glad.c.obj.provides.build: CMakeFiles/example.dir/glad.c.
 CMakeFiles/example.dir/stb_image.cpp.obj: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/stb_image.cpp.obj: ../stb_image.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/example.dir/stb_image.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
 
 CMakeFiles/example.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/stb_image.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\example.dir\stb_image.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\example.dir\stb_image.cpp.i
 
 CMakeFiles/example.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/stb_image.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\example.dir\stb_image.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\example.dir\stb_image.cpp.s
 
 CMakeFiles/example.dir/stb_image.cpp.obj.requires:
 

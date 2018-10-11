@@ -3,4 +3,7 @@ D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/triangle.dir
 D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/shader.dir
+D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/modelImporter.dir
+D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/bunGLM.dir
+D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir
 D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir

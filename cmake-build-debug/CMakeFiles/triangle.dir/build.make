@@ -59,15 +59,15 @@ include CMakeFiles/triangle.dir/flags.make
 CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.obj: CMakeFiles/triangle.dir/flags.make
 CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.obj: ../1.triangle/windowTest.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.obj -c D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.obj -c D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp
 
 CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp > CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp > CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.i
 
 CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp -o CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\1.triangle\windowTest.cpp -o CMakeFiles\triangle.dir\1.triangle\windowTest.cpp.s
 
 CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.obj.requires:
 
@@ -83,15 +83,15 @@ CMakeFiles/triangle.dir/1.triangle/windowTest.cpp.obj.provides.build: CMakeFiles
 CMakeFiles/triangle.dir/glad.c.obj: CMakeFiles/triangle.dir/flags.make
 CMakeFiles/triangle.dir/glad.c.obj: ../glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/triangle.dir/glad.c.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\triangle.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\triangle.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
 
 CMakeFiles/triangle.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/triangle.dir/glad.c.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\triangle.dir\glad.c.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\triangle.dir\glad.c.i
 
 CMakeFiles/triangle.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/triangle.dir/glad.c.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\triangle.dir\glad.c.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\triangle.dir\glad.c.s
 
 CMakeFiles/triangle.dir/glad.c.obj.requires:
 
@@ -107,15 +107,15 @@ CMakeFiles/triangle.dir/glad.c.obj.provides.build: CMakeFiles/triangle.dir/glad.
 CMakeFiles/triangle.dir/stb_image.cpp.obj: CMakeFiles/triangle.dir/flags.make
 CMakeFiles/triangle.dir/stb_image.cpp.obj: ../stb_image.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/triangle.dir/stb_image.cpp.obj"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangle.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangle.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
 
 CMakeFiles/triangle.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle.dir/stb_image.cpp.i"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\triangle.dir\stb_image.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\triangle.dir\stb_image.cpp.i
 
 CMakeFiles/triangle.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/stb_image.cpp.s"
-	D:\PROGRA~2\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\triangle.dir\stb_image.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\triangle.dir\stb_image.cpp.s
 
 CMakeFiles/triangle.dir/stb_image.cpp.obj.requires:
 

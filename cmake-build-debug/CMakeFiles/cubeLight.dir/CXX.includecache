@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/clion_project/bunOpenGL/cubeLight/Shader.h
+F:/clion_project/bunOpenGL/cubeLight/Shader.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -20,7 +20,7 @@ sstream
 iostream
 -
 
-D:/clion_project/bunOpenGL/cubeLight/camera.h
+F:/clion_project/bunOpenGL/cubeLight/camera.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -30,7 +30,7 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-D:/clion_project/bunOpenGL/cubeLight/main.cpp
+F:/clion_project/bunOpenGL/cubeLight/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -40,13 +40,13 @@ iostream
 cmath
 -
 Shader.h
-D:/clion_project/bunOpenGL/cubeLight/Shader.h
+F:/clion_project/bunOpenGL/cubeLight/Shader.h
 camera.h
-D:/clion_project/bunOpenGL/cubeLight/camera.h
+F:/clion_project/bunOpenGL/cubeLight/camera.h
 cmath
 -
 ../stb_image.h
-D:/clion_project/bunOpenGL/stb_image.h
+F:/clion_project/bunOpenGL/stb_image.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -54,13 +54,13 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 
-D:/clion_project/bunOpenGL/stb_image.cpp
+F:/clion_project/bunOpenGL/stb_image.cpp
 stb_image.h
-D:/clion_project/bunOpenGL/stb_image.h
+F:/clion_project/bunOpenGL/stb_image.h
 
-D:/clion_project/bunOpenGL/stb_image.h
+F:/clion_project/bunOpenGL/stb_image.h
 stb_image.h
-D:/clion_project/bunOpenGL/stb_image.h
+F:/clion_project/bunOpenGL/stb_image.h
 stdio.h
 -
 stdarg.h

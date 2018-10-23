@@ -23,3 +23,12 @@ target_link_libraries(cubeLight glew32 glfw3 gdi32 opengl32 libassimp)
 
 add_executable(modelImporter modelImporter/main.cpp glad.c modelImporter/Shader.h glad.c stb_image.h stb_image.cpp modelImporter/camera.h modelImporter/Mesh.h modelImporter/Model.h)
 target_link_libraries(modelImporter glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(DepthAndStencil DepthAndStencil/main.cpp glad.c DepthAndStencil/Shader.h glad.c stb_image.h stb_image.cpp DepthAndStencil/camera.h)
+target_link_libraries(DepthAndStencil glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(FrameBuffer FrameBuffer/main.cpp glad.c FrameBuffer/Shader.h glad.c stb_image.h stb_image.cpp FrameBuffer/camera.h)
+target_link_libraries(FrameBuffer glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(Skybox Skybox/main.cpp glad.c Skybox/Shader.h glad.c stb_image.h stb_image.cpp Skybox/camera.h Skybox/Mesh.h Skybox/Model.h)
+target_link_libraries(Skybox glew32 glfw3 gdi32 opengl32 libassimp)

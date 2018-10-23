@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/clion_project/bunOpenGL/glad.c" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/glad.c.obj"
+  "F:/clion_project/bunOpenGL/glad.c" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -13,9 +13,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/clion_project/bunOpenGL/3.texture/Shader.cpp" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/3.texture/Shader.cpp.obj"
-  "D:/clion_project/bunOpenGL/3.texture/main.cpp" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/3.texture/main.cpp.obj"
-  "D:/clion_project/bunOpenGL/stb_image.cpp" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/stb_image.cpp.obj"
+  "F:/clion_project/bunOpenGL/3.texture/Shader.cpp" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/3.texture/Shader.cpp.obj"
+  "F:/clion_project/bunOpenGL/3.texture/main.cpp" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/3.texture/main.cpp.obj"
+  "F:/clion_project/bunOpenGL/stb_image.cpp" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir/stb_image.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/clion_project/bunOpenGL/glad.c
+F:/clion_project/bunOpenGL/glad.c
 stdio.h
 -
 stdlib.h

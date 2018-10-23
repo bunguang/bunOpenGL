@@ -38,38 +38,27 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\clion_project\bunOpenGL
+CMAKE_SOURCE_DIR = F:\clion_project\bunOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\clion_project\bunOpenGL\cmake-build-debug
+CMAKE_BINARY_DIR = F:\clion_project\bunOpenGL\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named DepthAndStencil
+
+# Build rule for target.
+DepthAndStencil: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DepthAndStencil
+.PHONY : DepthAndStencil
+
+# fast build rule for target.
+DepthAndStencil/fast:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/build
+.PHONY : DepthAndStencil/fast
+
+#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -134,6 +147,19 @@ triangle: cmake_check_build_system
 triangle/fast:
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/build
 .PHONY : triangle/fast
+
+#=============================================================================
+# Target rules for targets named FrameBuffer
+
+# Build rule for target.
+FrameBuffer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FrameBuffer
+.PHONY : FrameBuffer
+
+# fast build rule for target.
+FrameBuffer/fast:
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/build
+.PHONY : FrameBuffer/fast
 
 #=============================================================================
 # Target rules for targets named shader
@@ -199,6 +225,19 @@ texture: cmake_check_build_system
 texture/fast:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/build
 .PHONY : texture/fast
+
+#=============================================================================
+# Target rules for targets named Skybox
+
+# Build rule for target.
+Skybox: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Skybox
+.PHONY : Skybox
+
+# fast build rule for target.
+Skybox/fast:
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/build
+.PHONY : Skybox/fast
 
 0.examples/main.obj: 0.examples/main.cpp.obj
 
@@ -362,6 +401,87 @@ texture/fast:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/3.texture/main.cpp.s
 .PHONY : 3.texture/main.cpp.s
 
+DepthAndStencil/main.obj: DepthAndStencil/main.cpp.obj
+
+.PHONY : DepthAndStencil/main.obj
+
+# target to build an object file
+DepthAndStencil/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/DepthAndStencil/main.cpp.obj
+.PHONY : DepthAndStencil/main.cpp.obj
+
+DepthAndStencil/main.i: DepthAndStencil/main.cpp.i
+
+.PHONY : DepthAndStencil/main.i
+
+# target to preprocess a source file
+DepthAndStencil/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/DepthAndStencil/main.cpp.i
+.PHONY : DepthAndStencil/main.cpp.i
+
+DepthAndStencil/main.s: DepthAndStencil/main.cpp.s
+
+.PHONY : DepthAndStencil/main.s
+
+# target to generate assembly for a file
+DepthAndStencil/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/DepthAndStencil/main.cpp.s
+.PHONY : DepthAndStencil/main.cpp.s
+
+FrameBuffer/main.obj: FrameBuffer/main.cpp.obj
+
+.PHONY : FrameBuffer/main.obj
+
+# target to build an object file
+FrameBuffer/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/FrameBuffer/main.cpp.obj
+.PHONY : FrameBuffer/main.cpp.obj
+
+FrameBuffer/main.i: FrameBuffer/main.cpp.i
+
+.PHONY : FrameBuffer/main.i
+
+# target to preprocess a source file
+FrameBuffer/main.cpp.i:
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/FrameBuffer/main.cpp.i
+.PHONY : FrameBuffer/main.cpp.i
+
+FrameBuffer/main.s: FrameBuffer/main.cpp.s
+
+.PHONY : FrameBuffer/main.s
+
+# target to generate assembly for a file
+FrameBuffer/main.cpp.s:
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/FrameBuffer/main.cpp.s
+.PHONY : FrameBuffer/main.cpp.s
+
+Skybox/main.obj: Skybox/main.cpp.obj
+
+.PHONY : Skybox/main.obj
+
+# target to build an object file
+Skybox/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/Skybox/main.cpp.obj
+.PHONY : Skybox/main.cpp.obj
+
+Skybox/main.i: Skybox/main.cpp.i
+
+.PHONY : Skybox/main.i
+
+# target to preprocess a source file
+Skybox/main.cpp.i:
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/Skybox/main.cpp.i
+.PHONY : Skybox/main.cpp.i
+
+Skybox/main.s: Skybox/main.cpp.s
+
+.PHONY : Skybox/main.s
+
+# target to generate assembly for a file
+Skybox/main.cpp.s:
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/Skybox/main.cpp.s
+.PHONY : Skybox/main.cpp.s
+
 bunGLM/Shader.obj: bunGLM/Shader.cpp.obj
 
 .PHONY : bunGLM/Shader.obj
@@ -449,13 +569,16 @@ glad.obj: glad.c.obj
 
 # target to build an object file
 glad.c.obj:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.obj
 .PHONY : glad.c.obj
 
 glad.i: glad.c.i
@@ -464,13 +587,16 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -479,13 +605,16 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.s
 .PHONY : glad.c.s
 
 modelImporter/main.obj: modelImporter/main.cpp.obj
@@ -521,13 +650,16 @@ stb_image.obj: stb_image.cpp.obj
 
 # target to build an object file
 stb_image.cpp.obj:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
 stb_image.i: stb_image.cpp.i
@@ -536,13 +668,16 @@ stb_image.i: stb_image.cpp.i
 
 # target to preprocess a source file
 stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -551,13 +686,16 @@ stb_image.s: stb_image.cpp.s
 
 # target to generate assembly for a file
 stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 # Help Target
@@ -566,15 +704,18 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... DepthAndStencil
 	@echo ... example
-	@echo ... rebuild_cache
 	@echo ... triangle
-	@echo ... edit_cache
+	@echo ... FrameBuffer
 	@echo ... shader
 	@echo ... modelImporter
 	@echo ... bunGLM
 	@echo ... cubeLight
 	@echo ... texture
+	@echo ... Skybox
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... 0.examples/main.obj
 	@echo ... 0.examples/main.i
 	@echo ... 0.examples/main.s
@@ -593,6 +734,15 @@ help:
 	@echo ... 3.texture/main.obj
 	@echo ... 3.texture/main.i
 	@echo ... 3.texture/main.s
+	@echo ... DepthAndStencil/main.obj
+	@echo ... DepthAndStencil/main.i
+	@echo ... DepthAndStencil/main.s
+	@echo ... FrameBuffer/main.obj
+	@echo ... FrameBuffer/main.i
+	@echo ... FrameBuffer/main.s
+	@echo ... Skybox/main.obj
+	@echo ... Skybox/main.i
+	@echo ... Skybox/main.s
 	@echo ... bunGLM/Shader.obj
 	@echo ... bunGLM/Shader.i
 	@echo ... bunGLM/Shader.s

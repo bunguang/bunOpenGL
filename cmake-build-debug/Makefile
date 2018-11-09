@@ -239,6 +239,32 @@ Skybox/fast:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/build
 .PHONY : Skybox/fast
 
+#=============================================================================
+# Target rules for targets named GeometryShader
+
+# Build rule for target.
+GeometryShader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GeometryShader
+.PHONY : GeometryShader
+
+# fast build rule for target.
+GeometryShader/fast:
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/build
+.PHONY : GeometryShader/fast
+
+#=============================================================================
+# Target rules for targets named Instancing
+
+# Build rule for target.
+Instancing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Instancing
+.PHONY : Instancing
+
+# fast build rule for target.
+Instancing/fast:
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/build
+.PHONY : Instancing/fast
+
 0.examples/main.obj: 0.examples/main.cpp.obj
 
 .PHONY : 0.examples/main.obj
@@ -455,6 +481,60 @@ FrameBuffer/main.cpp.s:
 	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/FrameBuffer/main.cpp.s
 .PHONY : FrameBuffer/main.cpp.s
 
+GeometryShader/main.obj: GeometryShader/main.cpp.obj
+
+.PHONY : GeometryShader/main.obj
+
+# target to build an object file
+GeometryShader/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/GeometryShader/main.cpp.obj
+.PHONY : GeometryShader/main.cpp.obj
+
+GeometryShader/main.i: GeometryShader/main.cpp.i
+
+.PHONY : GeometryShader/main.i
+
+# target to preprocess a source file
+GeometryShader/main.cpp.i:
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/GeometryShader/main.cpp.i
+.PHONY : GeometryShader/main.cpp.i
+
+GeometryShader/main.s: GeometryShader/main.cpp.s
+
+.PHONY : GeometryShader/main.s
+
+# target to generate assembly for a file
+GeometryShader/main.cpp.s:
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/GeometryShader/main.cpp.s
+.PHONY : GeometryShader/main.cpp.s
+
+Instancing/drawCallTest.obj: Instancing/drawCallTest.cpp.obj
+
+.PHONY : Instancing/drawCallTest.obj
+
+# target to build an object file
+Instancing/drawCallTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/Instancing/drawCallTest.cpp.obj
+.PHONY : Instancing/drawCallTest.cpp.obj
+
+Instancing/drawCallTest.i: Instancing/drawCallTest.cpp.i
+
+.PHONY : Instancing/drawCallTest.i
+
+# target to preprocess a source file
+Instancing/drawCallTest.cpp.i:
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/Instancing/drawCallTest.cpp.i
+.PHONY : Instancing/drawCallTest.cpp.i
+
+Instancing/drawCallTest.s: Instancing/drawCallTest.cpp.s
+
+.PHONY : Instancing/drawCallTest.s
+
+# target to generate assembly for a file
+Instancing/drawCallTest.cpp.s:
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/Instancing/drawCallTest.cpp.s
+.PHONY : Instancing/drawCallTest.cpp.s
+
 Skybox/main.obj: Skybox/main.cpp.obj
 
 .PHONY : Skybox/main.obj
@@ -579,6 +659,8 @@ glad.c.obj:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.obj
 .PHONY : glad.c.obj
 
 glad.i: glad.c.i
@@ -597,6 +679,8 @@ glad.c.i:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -615,6 +699,8 @@ glad.c.s:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.s
 .PHONY : glad.c.s
 
 modelImporter/main.obj: modelImporter/main.cpp.obj
@@ -660,6 +746,8 @@ stb_image.cpp.obj:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
 stb_image.i: stb_image.cpp.i
@@ -678,6 +766,8 @@ stb_image.cpp.i:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -696,6 +786,8 @@ stb_image.cpp.s:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 # Help Target
@@ -714,6 +806,8 @@ help:
 	@echo ... cubeLight
 	@echo ... texture
 	@echo ... Skybox
+	@echo ... GeometryShader
+	@echo ... Instancing
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 0.examples/main.obj
@@ -740,6 +834,12 @@ help:
 	@echo ... FrameBuffer/main.obj
 	@echo ... FrameBuffer/main.i
 	@echo ... FrameBuffer/main.s
+	@echo ... GeometryShader/main.obj
+	@echo ... GeometryShader/main.i
+	@echo ... GeometryShader/main.s
+	@echo ... Instancing/drawCallTest.obj
+	@echo ... Instancing/drawCallTest.i
+	@echo ... Instancing/drawCallTest.s
 	@echo ... Skybox/main.obj
 	@echo ... Skybox/main.i
 	@echo ... Skybox/main.s

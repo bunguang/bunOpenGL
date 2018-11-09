@@ -437,6 +437,90 @@
 					<DistClean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="GeometryShader">
+				<Option output="F:/clion_project/bunOpenGL/cmake-build-debug/GeometryShader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/clion_project/bunOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeometryShader"/>
+					<CompileFile command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeometryShader/fast">
+				<Option output="F:/clion_project/bunOpenGL/cmake-build-debug/GeometryShader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/clion_project/bunOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeometryShader/fast"/>
+					<CompileFile command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Instancing">
+				<Option output="F:/clion_project/bunOpenGL/cmake-build-debug/Instancing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/clion_project/bunOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Instancing"/>
+					<CompileFile command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Instancing/fast">
+				<Option output="F:/clion_project/bunOpenGL/cmake-build-debug/Instancing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/clion_project/bunOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 Instancing/fast"/>
+					<CompileFile command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/mingw32-make.exe -f &quot;F:/clion_project/bunOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/clion_project/bunOpenGL/cmake-build-debug"/>
 				<Option type="4"/>
@@ -500,6 +584,36 @@
 		<Unit filename="F:/clion_project/bunOpenGL/FrameBuffer/main.cpp">
 			<Option target="FrameBuffer"/>
 		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/GeometryShader/Mesh.h">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/GeometryShader/Model.h">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/GeometryShader/Shader.h">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/GeometryShader/camera.h">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/GeometryShader/main.cpp">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/Instancing/Mesh.h">
+			<Option target="Instancing"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/Instancing/Model.h">
+			<Option target="Instancing"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/Instancing/Shader.h">
+			<Option target="Instancing"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/Instancing/camera.h">
+			<Option target="Instancing"/>
+		</Unit>
+		<Unit filename="F:/clion_project/bunOpenGL/Instancing/drawCallTest.cpp">
+			<Option target="Instancing"/>
+		</Unit>
 		<Unit filename="F:/clion_project/bunOpenGL/Skybox/Mesh.h">
 			<Option target="Skybox"/>
 		</Unit>
@@ -544,6 +658,8 @@
 			<Option target="cubeLight"/>
 			<Option target="texture"/>
 			<Option target="Skybox"/>
+			<Option target="GeometryShader"/>
+			<Option target="Instancing"/>
 		</Unit>
 		<Unit filename="F:/clion_project/bunOpenGL/modelImporter/Mesh.h">
 			<Option target="modelImporter"/>
@@ -571,6 +687,8 @@
 			<Option target="cubeLight"/>
 			<Option target="texture"/>
 			<Option target="Skybox"/>
+			<Option target="GeometryShader"/>
+			<Option target="Instancing"/>
 		</Unit>
 		<Unit filename="F:/clion_project/bunOpenGL/stb_image.h">
 			<Option target="DepthAndStencil"/>
@@ -583,6 +701,8 @@
 			<Option target="cubeLight"/>
 			<Option target="texture"/>
 			<Option target="Skybox"/>
+			<Option target="GeometryShader"/>
+			<Option target="Instancing"/>
 		</Unit>
 		<Unit filename="F:/clion_project/bunOpenGL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

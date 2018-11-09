@@ -32,3 +32,9 @@ target_link_libraries(FrameBuffer glew32 glfw3 gdi32 opengl32 libassimp)
 
 add_executable(Skybox Skybox/main.cpp glad.c Skybox/Shader.h glad.c stb_image.h stb_image.cpp Skybox/camera.h Skybox/Mesh.h Skybox/Model.h)
 target_link_libraries(Skybox glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(GeometryShader GeometryShader/main.cpp glad.c GeometryShader/Shader.h glad.c stb_image.h stb_image.cpp GeometryShader/camera.h GeometryShader/Mesh.h GeometryShader/Model.h)
+target_link_libraries(GeometryShader glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(Instancing glad.c Instancing/Shader.h glad.c stb_image.h stb_image.cpp Instancing/camera.h Instancing/Mesh.h Instancing/Model.h Instancing/drawCallTest.cpp)
+target_link_libraries(Instancing glew32 glfw3 gdi32 opengl32 libassimp)

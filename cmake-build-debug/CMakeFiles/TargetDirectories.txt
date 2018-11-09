@@ -8,5 +8,7 @@ F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/bunGLM.dir
 F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir
 F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/texture.dir
 F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/Skybox.dir
+F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/GeometryShader.dir
+F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/Instancing.dir
 F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

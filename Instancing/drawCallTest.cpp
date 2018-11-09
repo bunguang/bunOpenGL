@@ -48,8 +48,8 @@ float lastFrame = 0.0f;
 unsigned int INSTANCE_AMOUNT = 50000;
 
 int main() {
-    int statusCode = drawWithoutInstancing();
-    // int statusCode = drawWithInstancing();
+    // int statusCode = drawWithoutInstancing();
+    int statusCode = drawWithInstancing();
     return statusCode;
 }
 

@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = F:\clion_project\bunOpenGL\cmake-build-debug
 CMakeFiles/DepthAndStencil.dir/all:
 	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/depend
 	$(MAKE) -f CMakeFiles\DepthAndStencil.dir\build.make CMakeFiles/DepthAndStencil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target DepthAndStencil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target DepthAndStencil"
 .PHONY : CMakeFiles/DepthAndStencil.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/DepthAndStencil.dir/clean
 CMakeFiles/example.dir/all:
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/depend
 	$(MAKE) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=30,31,32,33 "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37 "Built target example"
 .PHONY : CMakeFiles/example.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ clean: CMakeFiles/example.dir/clean
 CMakeFiles/triangle.dir/all:
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/depend
 	$(MAKE) -f CMakeFiles\triangle.dir\build.make CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=48,49,50,51 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=52,53,54,55 "Built target triangle"
 .PHONY : CMakeFiles/triangle.dir/all
 
 # Include target in all.
@@ -176,7 +176,7 @@ clean: CMakeFiles/triangle.dir/clean
 CMakeFiles/FrameBuffer.dir/all:
 	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/depend
 	$(MAKE) -f CMakeFiles\FrameBuffer.dir\build.make CMakeFiles/FrameBuffer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target FrameBuffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target FrameBuffer"
 .PHONY : CMakeFiles/FrameBuffer.dir/all
 
 # Include target in all.
@@ -213,7 +213,7 @@ clean: CMakeFiles/FrameBuffer.dir/clean
 CMakeFiles/shader.dir/all:
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/depend
 	$(MAKE) -f CMakeFiles\shader.dir\build.make CMakeFiles/shader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=38,39,40,41,42 "Built target shader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=42,43,44,45,46 "Built target shader"
 .PHONY : CMakeFiles/shader.dir/all
 
 # Include target in all.
@@ -250,7 +250,7 @@ clean: CMakeFiles/shader.dir/clean
 CMakeFiles/modelImporter.dir/all:
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/depend
 	$(MAKE) -f CMakeFiles\modelImporter.dir\build.make CMakeFiles/modelImporter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37 "Built target modelImporter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=38,39,40,41 "Built target modelImporter"
 .PHONY : CMakeFiles/modelImporter.dir/all
 
 # Include target in all.
@@ -287,7 +287,7 @@ clean: CMakeFiles/modelImporter.dir/clean
 CMakeFiles/bunGLM.dir/all:
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/depend
 	$(MAKE) -f CMakeFiles\bunGLM.dir\build.make CMakeFiles/bunGLM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=21,22,23,24,25 "Built target bunGLM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=25,26,27,28,29 "Built target bunGLM"
 .PHONY : CMakeFiles/bunGLM.dir/all
 
 # Include target in all.
@@ -324,7 +324,7 @@ clean: CMakeFiles/bunGLM.dir/clean
 CMakeFiles/cubeLight.dir/all:
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/depend
 	$(MAKE) -f CMakeFiles\cubeLight.dir\build.make CMakeFiles/cubeLight.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=26,27,28,29 "Built target cubeLight"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=30,31,32,33 "Built target cubeLight"
 .PHONY : CMakeFiles/cubeLight.dir/all
 
 # Include target in all.
@@ -361,7 +361,7 @@ clean: CMakeFiles/cubeLight.dir/clean
 CMakeFiles/texture.dir/all:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/depend
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=43,44,45,46,47 "Built target texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=47,48,49,50,51 "Built target texture"
 .PHONY : CMakeFiles/texture.dir/all
 
 # Include target in all.
@@ -398,7 +398,7 @@ clean: CMakeFiles/texture.dir/clean
 CMakeFiles/Skybox.dir/all:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/depend
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=17,18,19,20 "Built target Skybox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=21,22,23,24 "Built target Skybox"
 .PHONY : CMakeFiles/Skybox.dir/all
 
 # Include target in all.
@@ -435,7 +435,7 @@ clean: CMakeFiles/Skybox.dir/clean
 CMakeFiles/GeometryShader.dir/all:
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/depend
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target GeometryShader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16 "Built target GeometryShader"
 .PHONY : CMakeFiles/GeometryShader.dir/all
 
 # Include target in all.
@@ -472,7 +472,7 @@ clean: CMakeFiles/GeometryShader.dir/clean
 CMakeFiles/Instancing.dir/all:
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/depend
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16 "Built target Instancing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=17,18,19,20 "Built target Instancing"
 .PHONY : CMakeFiles/Instancing.dir/all
 
 # Include target in all.
@@ -499,6 +499,43 @@ CMakeFiles/Instancing.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Instancing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AntiAliasing.dir
+
+# All Build rule for target.
+CMakeFiles/AntiAliasing.dir/all:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/depend
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target AntiAliasing"
+.PHONY : CMakeFiles/AntiAliasing.dir/all
+
+# Include target in all.
+all: CMakeFiles/AntiAliasing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AntiAliasing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AntiAliasing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AntiAliasing.dir/rule
+
+# Convenience name for target.
+AntiAliasing: CMakeFiles/AntiAliasing.dir/rule
+
+.PHONY : AntiAliasing
+
+# clean rule for target.
+CMakeFiles/AntiAliasing.dir/clean:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/clean
+.PHONY : CMakeFiles/AntiAliasing.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AntiAliasing.dir/clean
 
 .PHONY : clean
 

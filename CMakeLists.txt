@@ -38,3 +38,6 @@ target_link_libraries(GeometryShader glew32 glfw3 gdi32 opengl32 libassimp)
 
 add_executable(Instancing glad.c Instancing/Shader.h glad.c stb_image.h stb_image.cpp Instancing/camera.h Instancing/Mesh.h Instancing/Model.h Instancing/drawCallTest.cpp)
 target_link_libraries(Instancing glew32 glfw3 gdi32 opengl32 libassimp)
+
+add_executable(AntiAliasing glad.c AntiAliasing/Shader.h glad.c stb_image.h stb_image.cpp AntiAliasing/camera.h AntiAliasing/Mesh.h AntiAliasing/Model.h AntiAliasing/main.cpp)
+target_link_libraries(AntiAliasing glew32 glfw3 gdi32 opengl32 libassimp)

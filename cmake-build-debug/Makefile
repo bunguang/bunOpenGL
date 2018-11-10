@@ -265,6 +265,19 @@ Instancing/fast:
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/build
 .PHONY : Instancing/fast
 
+#=============================================================================
+# Target rules for targets named AntiAliasing
+
+# Build rule for target.
+AntiAliasing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AntiAliasing
+.PHONY : AntiAliasing
+
+# fast build rule for target.
+AntiAliasing/fast:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/build
+.PHONY : AntiAliasing/fast
+
 0.examples/main.obj: 0.examples/main.cpp.obj
 
 .PHONY : 0.examples/main.obj
@@ -426,6 +439,33 @@ Instancing/fast:
 3.texture/main.cpp.s:
 	$(MAKE) -f CMakeFiles\texture.dir\build.make CMakeFiles/texture.dir/3.texture/main.cpp.s
 .PHONY : 3.texture/main.cpp.s
+
+AntiAliasing/main.obj: AntiAliasing/main.cpp.obj
+
+.PHONY : AntiAliasing/main.obj
+
+# target to build an object file
+AntiAliasing/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj
+.PHONY : AntiAliasing/main.cpp.obj
+
+AntiAliasing/main.i: AntiAliasing/main.cpp.i
+
+.PHONY : AntiAliasing/main.i
+
+# target to preprocess a source file
+AntiAliasing/main.cpp.i:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.i
+.PHONY : AntiAliasing/main.cpp.i
+
+AntiAliasing/main.s: AntiAliasing/main.cpp.s
+
+.PHONY : AntiAliasing/main.s
+
+# target to generate assembly for a file
+AntiAliasing/main.cpp.s:
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.s
+.PHONY : AntiAliasing/main.cpp.s
 
 DepthAndStencil/main.obj: DepthAndStencil/main.cpp.obj
 
@@ -661,6 +701,7 @@ glad.c.obj:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.obj
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.obj
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/glad.c.obj
 .PHONY : glad.c.obj
 
 glad.i: glad.c.i
@@ -681,6 +722,7 @@ glad.c.i:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.i
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.i
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -701,6 +743,7 @@ glad.c.s:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/glad.c.s
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/glad.c.s
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/glad.c.s
 .PHONY : glad.c.s
 
 modelImporter/main.obj: modelImporter/main.cpp.obj
@@ -748,6 +791,7 @@ stb_image.cpp.obj:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.obj
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.obj
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
 stb_image.i: stb_image.cpp.i
@@ -768,6 +812,7 @@ stb_image.cpp.i:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.i
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.i
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -788,6 +833,7 @@ stb_image.cpp.s:
 	$(MAKE) -f CMakeFiles\Skybox.dir\build.make CMakeFiles/Skybox.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\GeometryShader.dir\build.make CMakeFiles/GeometryShader.dir/stb_image.cpp.s
 	$(MAKE) -f CMakeFiles\Instancing.dir\build.make CMakeFiles/Instancing.dir/stb_image.cpp.s
+	$(MAKE) -f CMakeFiles\AntiAliasing.dir\build.make CMakeFiles/AntiAliasing.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 # Help Target
@@ -808,6 +854,7 @@ help:
 	@echo ... Skybox
 	@echo ... GeometryShader
 	@echo ... Instancing
+	@echo ... AntiAliasing
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 0.examples/main.obj
@@ -828,6 +875,9 @@ help:
 	@echo ... 3.texture/main.obj
 	@echo ... 3.texture/main.i
 	@echo ... 3.texture/main.s
+	@echo ... AntiAliasing/main.obj
+	@echo ... AntiAliasing/main.i
+	@echo ... AntiAliasing/main.s
 	@echo ... DepthAndStencil/main.obj
 	@echo ... DepthAndStencil/main.i
 	@echo ... DepthAndStencil/main.s

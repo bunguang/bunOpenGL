@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\clion_project\bunOpenGL
+CMAKE_SOURCE_DIR = D:\clion_project\bunOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\clion_project\bunOpenGL\cmake-build-debug
+CMAKE_BINARY_DIR = D:\clion_project\bunOpenGL\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/shader.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/shader.dir/flags.make
 
 CMakeFiles/shader.dir/2.shader/main.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/2.shader/main.cpp.obj: ../2.shader/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shader.dir/2.shader/main.cpp.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\main.cpp.obj -c F:\clion_project\bunOpenGL\2.shader\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shader.dir/2.shader/main.cpp.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\main.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\main.cpp
 
 CMakeFiles/shader.dir/2.shader/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/2.shader/main.cpp.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\clion_project\bunOpenGL\2.shader\main.cpp > CMakeFiles\shader.dir\2.shader\main.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\main.cpp > CMakeFiles\shader.dir\2.shader\main.cpp.i
 
 CMakeFiles/shader.dir/2.shader/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/2.shader/main.cpp.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\clion_project\bunOpenGL\2.shader\main.cpp -o CMakeFiles\shader.dir\2.shader\main.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\main.cpp -o CMakeFiles\shader.dir\2.shader\main.cpp.s
 
 CMakeFiles/shader.dir/2.shader/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/shader.dir/2.shader/main.cpp.obj.provides.build: CMakeFiles/shader.di
 
 CMakeFiles/shader.dir/glad.c.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/glad.c.obj: ../glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shader.dir/glad.c.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\shader.dir\glad.c.obj   -c F:\clion_project\bunOpenGL\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shader.dir/glad.c.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\shader.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
 
 CMakeFiles/shader.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shader.dir/glad.c.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\clion_project\bunOpenGL\glad.c > CMakeFiles\shader.dir\glad.c.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\shader.dir\glad.c.i
 
 CMakeFiles/shader.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shader.dir/glad.c.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\clion_project\bunOpenGL\glad.c -o CMakeFiles\shader.dir\glad.c.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\shader.dir\glad.c.s
 
 CMakeFiles/shader.dir/glad.c.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/shader.dir/glad.c.obj.provides.build: CMakeFiles/shader.dir/glad.c.ob
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj: ../2.shader/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shader.dir/2.shader/Shader.cpp.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\Shader.cpp.obj -c F:\clion_project\bunOpenGL\2.shader\Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shader.dir/2.shader/Shader.cpp.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\2.shader\Shader.cpp.obj -c D:\clion_project\bunOpenGL\2.shader\Shader.cpp
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/2.shader/Shader.cpp.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\clion_project\bunOpenGL\2.shader\Shader.cpp > CMakeFiles\shader.dir\2.shader\Shader.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\2.shader\Shader.cpp > CMakeFiles\shader.dir\2.shader\Shader.cpp.i
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/2.shader/Shader.cpp.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\clion_project\bunOpenGL\2.shader\Shader.cpp -o CMakeFiles\shader.dir\2.shader\Shader.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\2.shader\Shader.cpp -o CMakeFiles\shader.dir\2.shader\Shader.cpp.s
 
 CMakeFiles/shader.dir/2.shader/Shader.cpp.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/shader.dir/2.shader/Shader.cpp.obj.provides.build: CMakeFiles/shader.
 
 CMakeFiles/shader.dir/stb_image.cpp.obj: CMakeFiles/shader.dir/flags.make
 CMakeFiles/shader.dir/stb_image.cpp.obj: ../stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shader.dir/stb_image.cpp.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\stb_image.cpp.obj -c F:\clion_project\bunOpenGL\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shader.dir/stb_image.cpp.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\shader.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
 
 CMakeFiles/shader.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shader.dir/stb_image.cpp.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\shader.dir\stb_image.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\shader.dir\stb_image.cpp.i
 
 CMakeFiles/shader.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shader.dir/stb_image.cpp.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\shader.dir\stb_image.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\shader.dir\stb_image.cpp.s
 
 CMakeFiles/shader.dir/stb_image.cpp.obj.requires:
 
@@ -170,7 +170,7 @@ shader.exe: CMakeFiles/shader.dir/build.make
 shader.exe: CMakeFiles/shader.dir/linklibs.rsp
 shader.exe: CMakeFiles/shader.dir/objects1.rsp
 shader.exe: CMakeFiles/shader.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable shader.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable shader.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\shader.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -190,6 +190,6 @@ CMakeFiles/shader.dir/clean:
 .PHONY : CMakeFiles/shader.dir/clean
 
 CMakeFiles/shader.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\clion_project\bunOpenGL F:\clion_project\bunOpenGL F:\clion_project\bunOpenGL\cmake-build-debug F:\clion_project\bunOpenGL\cmake-build-debug F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\shader.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\clion_project\bunOpenGL D:\clion_project\bunOpenGL D:\clion_project\bunOpenGL\cmake-build-debug D:\clion_project\bunOpenGL\cmake-build-debug D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\shader.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shader.dir/depend
 

@@ -45,7 +45,7 @@ float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
 // instance INSTANCE_AMOUNT
-unsigned int INSTANCE_AMOUNT = 50000;
+unsigned int INSTANCE_AMOUNT = 10000;
 
 int main() {
     // int statusCode = drawWithoutInstancing();
@@ -59,6 +59,7 @@ int drawWithInstancing() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    // glfwWindowHint(GLFW_SAMPLES, 4);
 
     // 实例化窗口对象
     GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "BunOpenGL", NULL, NULL);
@@ -95,8 +96,8 @@ int drawWithInstancing() {
     glm::mat4 *modelMatrices;
     modelMatrices = new glm::mat4[INSTANCE_AMOUNT];
     srand(glfwGetTime()); // initialize random seed
-    float radius = 50.0;
-    float offset = 2.5f;
+    float radius = 150.0;
+    float offset = 25.0f;
     for (unsigned int i = 0; i < INSTANCE_AMOUNT; i++) {
         glm::mat4 model;
         // 1. translation: displace along circle with 'radius' in range [-offset, offset]

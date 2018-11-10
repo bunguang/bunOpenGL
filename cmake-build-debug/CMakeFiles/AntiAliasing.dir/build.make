@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\clion_project\bunOpenGL
+CMAKE_SOURCE_DIR = D:\clion_project\bunOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\clion_project\bunOpenGL\cmake-build-debug
+CMAKE_BINARY_DIR = D:\clion_project\bunOpenGL\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AntiAliasing.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/AntiAliasing.dir/flags.make
 
 CMakeFiles/AntiAliasing.dir/glad.c.obj: CMakeFiles/AntiAliasing.dir/flags.make
 CMakeFiles/AntiAliasing.dir/glad.c.obj: ../glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AntiAliasing.dir/glad.c.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AntiAliasing.dir\glad.c.obj   -c F:\clion_project\bunOpenGL\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AntiAliasing.dir/glad.c.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AntiAliasing.dir\glad.c.obj   -c D:\clion_project\bunOpenGL\glad.c
 
 CMakeFiles/AntiAliasing.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AntiAliasing.dir/glad.c.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\clion_project\bunOpenGL\glad.c > CMakeFiles\AntiAliasing.dir\glad.c.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion_project\bunOpenGL\glad.c > CMakeFiles\AntiAliasing.dir\glad.c.i
 
 CMakeFiles/AntiAliasing.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AntiAliasing.dir/glad.c.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\clion_project\bunOpenGL\glad.c -o CMakeFiles\AntiAliasing.dir\glad.c.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion_project\bunOpenGL\glad.c -o CMakeFiles\AntiAliasing.dir\glad.c.s
 
 CMakeFiles/AntiAliasing.dir/glad.c.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/AntiAliasing.dir/glad.c.obj.provides.build: CMakeFiles/AntiAliasing.d
 
 CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj: CMakeFiles/AntiAliasing.dir/flags.make
 CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj: ../stb_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AntiAliasing.dir\stb_image.cpp.obj -c F:\clion_project\bunOpenGL\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AntiAliasing.dir\stb_image.cpp.obj -c D:\clion_project\bunOpenGL\stb_image.cpp
 
 CMakeFiles/AntiAliasing.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AntiAliasing.dir/stb_image.cpp.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\AntiAliasing.dir\stb_image.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\stb_image.cpp > CMakeFiles\AntiAliasing.dir\stb_image.cpp.i
 
 CMakeFiles/AntiAliasing.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AntiAliasing.dir/stb_image.cpp.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\AntiAliasing.dir\stb_image.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\stb_image.cpp -o CMakeFiles\AntiAliasing.dir\stb_image.cpp.s
 
 CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/AntiAliasing.dir/stb_image.cpp.obj.provides.build: CMakeFiles/AntiAli
 
 CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj: CMakeFiles/AntiAliasing.dir/flags.make
 CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj: ../AntiAliasing/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.obj -c F:\clion_project\bunOpenGL\AntiAliasing\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj"
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.obj -c D:\clion_project\bunOpenGL\AntiAliasing\main.cpp
 
 CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.i"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\clion_project\bunOpenGL\AntiAliasing\main.cpp > CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.i
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_project\bunOpenGL\AntiAliasing\main.cpp > CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.i
 
 CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.s"
-	"E:\Program Files\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\clion_project\bunOpenGL\AntiAliasing\main.cpp -o CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.s
+	D:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_project\bunOpenGL\AntiAliasing\main.cpp -o CMakeFiles\AntiAliasing.dir\AntiAliasing\main.cpp.s
 
 CMakeFiles/AntiAliasing.dir/AntiAliasing/main.cpp.obj.requires:
 
@@ -144,7 +144,7 @@ AntiAliasing.exe: CMakeFiles/AntiAliasing.dir/build.make
 AntiAliasing.exe: CMakeFiles/AntiAliasing.dir/linklibs.rsp
 AntiAliasing.exe: CMakeFiles/AntiAliasing.dir/objects1.rsp
 AntiAliasing.exe: CMakeFiles/AntiAliasing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AntiAliasing.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AntiAliasing.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AntiAliasing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/AntiAliasing.dir/clean:
 .PHONY : CMakeFiles/AntiAliasing.dir/clean
 
 CMakeFiles/AntiAliasing.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\clion_project\bunOpenGL F:\clion_project\bunOpenGL F:\clion_project\bunOpenGL\cmake-build-debug F:\clion_project\bunOpenGL\cmake-build-debug F:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\AntiAliasing.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\clion_project\bunOpenGL D:\clion_project\bunOpenGL D:\clion_project\bunOpenGL\cmake-build-debug D:\clion_project\bunOpenGL\cmake-build-debug D:\clion_project\bunOpenGL\cmake-build-debug\CMakeFiles\AntiAliasing.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AntiAliasing.dir/depend
 

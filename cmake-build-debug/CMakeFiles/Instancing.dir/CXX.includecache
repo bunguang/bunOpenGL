@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-F:/clion_project/bunOpenGL/Instancing/Mesh.h
+D:/clion_project/bunOpenGL/Instancing/Mesh.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -22,7 +22,7 @@ sstream
 iostream
 -
 Shader.h
-F:/clion_project/bunOpenGL/Instancing/Shader.h
+D:/clion_project/bunOpenGL/Instancing/Shader.h
 assimp/Importer.hpp
 -
 assimp/scene.h
@@ -30,7 +30,7 @@ assimp/scene.h
 assimp/postprocess.h
 -
 
-F:/clion_project/bunOpenGL/Instancing/Model.h
+D:/clion_project/bunOpenGL/Instancing/Model.h
 glad/glad.h
 -
 vector
@@ -44,15 +44,15 @@ sstream
 iostream
 -
 Shader.h
-F:/clion_project/bunOpenGL/Instancing/Shader.h
+D:/clion_project/bunOpenGL/Instancing/Shader.h
 Mesh.h
-F:/clion_project/bunOpenGL/Instancing/Mesh.h
+D:/clion_project/bunOpenGL/Instancing/Mesh.h
 camera.h
-F:/clion_project/bunOpenGL/Instancing/camera.h
+D:/clion_project/bunOpenGL/Instancing/camera.h
 cmath
 -
 ../stb_image.h
-F:/clion_project/bunOpenGL/stb_image.h
+D:/clion_project/bunOpenGL/stb_image.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -66,7 +66,7 @@ assimp/scene.h
 assimp/postprocess.h
 -
 
-F:/clion_project/bunOpenGL/Instancing/Shader.h
+D:/clion_project/bunOpenGL/Instancing/Shader.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -80,7 +80,7 @@ sstream
 iostream
 -
 
-F:/clion_project/bunOpenGL/Instancing/camera.h
+D:/clion_project/bunOpenGL/Instancing/camera.h
 glad/glad.h
 -
 glm/glm.hpp
@@ -90,7 +90,7 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-F:/clion_project/bunOpenGL/Instancing/drawCallTest.cpp
+D:/clion_project/bunOpenGL/Instancing/drawCallTest.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -100,13 +100,13 @@ iostream
 cmath
 -
 Shader.h
-F:/clion_project/bunOpenGL/Instancing/Shader.h
+D:/clion_project/bunOpenGL/Instancing/Shader.h
 camera.h
-F:/clion_project/bunOpenGL/Instancing/camera.h
+D:/clion_project/bunOpenGL/Instancing/camera.h
 ../stb_image.h
-F:/clion_project/bunOpenGL/stb_image.h
+D:/clion_project/bunOpenGL/stb_image.h
 Model.h
-F:/clion_project/bunOpenGL/Instancing/Model.h
+D:/clion_project/bunOpenGL/Instancing/Model.h
 cmath
 -
 glm/glm.hpp
@@ -116,13 +116,13 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 
-F:/clion_project/bunOpenGL/stb_image.cpp
+D:/clion_project/bunOpenGL/stb_image.cpp
 stb_image.h
-F:/clion_project/bunOpenGL/stb_image.h
+D:/clion_project/bunOpenGL/stb_image.h
 
-F:/clion_project/bunOpenGL/stb_image.h
+D:/clion_project/bunOpenGL/stb_image.h
 stb_image.h
-F:/clion_project/bunOpenGL/stb_image.h
+D:/clion_project/bunOpenGL/stb_image.h
 stdio.h
 -
 stdarg.h

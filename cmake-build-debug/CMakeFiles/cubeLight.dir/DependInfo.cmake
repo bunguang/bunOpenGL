@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/clion_project/bunOpenGL/glad.c" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/glad.c.obj"
+  "D:/clion_project/bunOpenGL/glad.c" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -13,8 +13,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/clion_project/bunOpenGL/cubeLight/main.cpp" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/cubeLight/main.cpp.obj"
-  "F:/clion_project/bunOpenGL/stb_image.cpp" "F:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/stb_image.cpp.obj"
+  "D:/clion_project/bunOpenGL/cubeLight/main.cpp" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/cubeLight/main.cpp.obj"
+  "D:/clion_project/bunOpenGL/stb_image.cpp" "D:/clion_project/bunOpenGL/cmake-build-debug/CMakeFiles/cubeLight.dir/stb_image.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

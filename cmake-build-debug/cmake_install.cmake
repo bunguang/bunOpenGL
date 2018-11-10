@@ -1,4 +1,4 @@
-# Install script for directory: F:/clion_project/bunOpenGL
+# Install script for directory: D:/clion_project/bunOpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/clion_project/bunOpenGL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/clion_project/bunOpenGL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
